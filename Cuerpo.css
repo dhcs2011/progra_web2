@@ -18,8 +18,12 @@ body{
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round");
 @import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
 
-div p{
+div .paper{
     font-size: 9px;
+}
+
+ul li.paper{
+    left: 0;
 }
 
 div h3{
@@ -90,7 +94,7 @@ div h3{
     color: var(--color);
 }
 
-p.paper{
+.paper{
     color: #555;
 }
 
