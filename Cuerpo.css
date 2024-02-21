@@ -14,6 +14,16 @@ body{
     color: white;
 }
 
+#logo:hover{
+    scale: 1.1;
+    left: 1%;
+    box-shadow: #FFF 0px 2px 3px;
+}
+
+p,li {
+    font-size: large;
+}
+
 /* CSS de los contenedores de las practicas */
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round");
 @import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
