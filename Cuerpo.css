@@ -81,6 +81,10 @@ div h3{
     --color: #00F2FF;
 }
 
+.item:nth-child(3){
+    --color: #088a2f;
+}
+
 .layer{
     background-color: #f2f2f2;
     border: 1px solid #FFFF;
