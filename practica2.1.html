@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 - Formularios</title>
+    <link rel="stylesheet" href="BarraNav.css" />
+    <link rel="stylesheet" href="Cuerpo.css" />
+    <link rel="stylesheet" href="EstPractica2.1.css">
+</head>
+<body>
+    <div align="center">
+        <nav>
+            <a href="index.html" id="a4">Menu</a>
+            <span></span>
+        </nav>
+    </div>
+    
+    <br>
+    
+    <form action="registro.php" method="post" align="center">
+        <fieldset>
+            <legend align="left">Información general</legend>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre(s):</label>
+                        <br>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" class="texto">
+                    </td>
+                    <td>
+                        <label for="ApePa">Apellido paterno:</label>
+                        <br>
+                        <input type="text" name="ApePa" id="ApePa" placeholder="Apellido paterno" class="texto">
+                    </td>
+                    <td>
+                        <label for="ApeMa">Apellido materno:</label>
+                        <br>
+                        <input type="text" name="ApeMa" id="ApeMa" placeholder="Apellido materno" class="texto">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NomUsu">Nombre de Usuario:</label>
+                        <br>
+                        <input type="text" name="NomUsu" id="NomUsu" placeholder="Nombre de Usuario" class="texto">
+                    </td>
+                    <td>
+                        <label for="Contra">Contraseña:</label>
+                        <br>
+                        <input type="password" name="Contra" id="Contra" placeholder="Contraseña" class="texto">
+                    </td>
+                    <td>
+                        <label for="FeNa">Fecha de Nacimiento:</label>
+                        <br>
+                        <input type="date" name="FeNa" id="Fena" placeholder="FeNa" class="texto">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset align="left">
+            <legend>Datos de facturación</legend>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="Pais">País:</label>
+                        <br>
+                        <select name="Pais" id="Pais">
+                            <option value="Mexico">México</option>
+                            <option value="Canada">Canadá</option>
+                            <option value="EUA">E.U.A</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Cd">Ciudad:</label>
+                        <br>
+                        <select name="Cd" id="Cd">
+                            <option value="SLP">San Luis Potosí</option>
+                            <option value="Matehuala">Matehuala</option>
+                            <option value="Cd. Valles">Cd. Valles</option>
+                            <option value="Rioverde">Rioverde</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Calle">Calle:</label>
+                        <br>
+                        <input type="text" name="Calle" id="Calle" placeholder="Calle" class="texto">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NumCasa">Número de casa:</label>
+                        <br>
+                        <input type="text" name="NumCasa" id="NumCasa" placeholder="Número exterior" class="texto">
+                    </td>
+                    <td>
+                        <label for="Col">Colonia:</label>
+                        <br>
+                        <input type="text" name="Col" id="Col" placeholder="Colonia" class="texto">
+                    </td>
+                    <td>
+                        <label for="Ema">Correo Electronico:</label>
+                        <br>
+                        <input type="email" name="Ema" id="Ema" placeholder="E-mail" class="texto">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="RFC">RFC:</label>
+                        <br>
+                        <input type="text" name="RFC" id="RFC" placeholder="RFC" class="texto">
+                    </td>
+                    <td>
+                        <label for="CP">C.P:</label>
+                        <br>
+                        <input type="text" name="CP" id="CP" placeholder="CP" class="texto">
+                    </td>
+                    <td>
+                        <br>
+                        <input type="submit" value="Enviar" id="envio" name="envio">
+                        <input type="reset" value="Restablecer">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
