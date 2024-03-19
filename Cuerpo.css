@@ -51,7 +51,7 @@ div h3{
 }
 
 .item{
-    --color: #FFCA00;
+    --color: #f39200e1;
     width: 185px;
     background-color: var(--color);
     border-radius: 10px;
@@ -78,7 +78,7 @@ div h3{
 }
 
 .item:nth-child(2){
-    --color: #00F2FF;
+    --color: #1d3ed3;
 }
 
 .item:nth-child(3){
